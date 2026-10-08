@@ -42,6 +42,7 @@ forecast = model.predict(n_periods=30)
 rmse = np.sqrt(mean_squared_error(test["Temperature"], forecast))
 st.subheader("Model Evaluation")
 st.write(f"**RMSE:** {rmse:.2f}")
+# fghjk
 
 # -----------------------------
 # 6. Visualization
